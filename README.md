@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align=center>Ignews</h1>
 
-## Getting Started
+Ignews is a fictitious blog, where users can subscribe by paying a certain amount to have access to the published posts.
 
-First, run the development server:
+## :clipboard: Features
+- Login with GitHub;
+- Subscribe;
+- List posts;
+- Show post preview;
+- Show complete post content.
+ 
+## :rocket: Try it yourself
+#### 1) Adding environment variables
+ - Create the file ``.env.local`` based on the example provided in ``.env.local.example``.
+ 
+#### 2) Installing dependencies
+- Run the command: ``npm install``.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+#### 3) Running the Next app in development mode
+- Run the command: ``npm run dev``.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Or
+If you want to take advantage of the functionality offered by Next.js, you can simulate that the application is in production by following these steps: 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+#### 3) Build the app
+- Run the command: ``npm run build``.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+#### 4) Running the Next app
+- Run the command: ``npm run start``.
+  
+ ## 🛠 Technologies
+  <div style="display: inline_block"><br>
+   <a href="https://www.typescriptlang.org/" title="TypeScript">
+     <img align="center" alt="TypeScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
+   </a>
+   <a href="https://nextjs.org/" title="NextJS">
+    <img align="center" alt="NextJS" height="35" width="35" src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png">
+   </a>
+   <a href="https://next-auth.js.org/" title="Next Auth">
+    <img align="center" alt="Next Auth" height="35" width="30" src="https://next-auth.js.org/img/logo/logo-sm.png">
+   </a>
+    <a href="https://axios-http.com/ptbr/docs/intro" title="Axios">
+    <img align="center" alt="Axios" height="40" width="40" src="https://avatars.githubusercontent.com/u/32372333?s=200&v=4">
+   </a>  
+    <a href="https://prismic.io/" title="Prismic">
+    <img align="center" alt="Prismic" height="75" width="96" src="https://prismic.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-dark.731ed924.svg&w=96&q=75">
+   </a>
+    <a href="https://fauna.com/" title="FaunaDB">
+    <img align="center" alt="FaunaDB" height="25" width="80" src="https://fauna.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fpo4qc9xpmpuh%2F7itYmeRxmVGIXwwGWHrQU3%2F42f3e7fa7d39fab5b6222f6199f0203c%2FFauna_Logo.svg&w=256&q=75">
+   </a>
+    <a href="https://stripe.com/br" title="Stripe">
+    <img align="center" alt="Stripe" height="35" width="80" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Stripe_Logo%2C_revised_2016.svg/2560px-      Stripe_Logo%2C_revised_2016.svg.png">
+   </a> 
+  </div>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
